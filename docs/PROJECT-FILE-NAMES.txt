@@ -1,0 +1,17 @@
+Place your real PDFs in this folder using these exact names:
+
+Twigs Naturals Endpoint Management Policy v1.0 Draft for Review (2).pdf
+Action1 Weekly Vulnerability Remediation and Patch Management Summary.pdf
+Endpoint Management Implementation Guide.pdf
+TN-Laptop1 Security Camera Deployment, Cloudflare Tunnel Implementation, and Remote Monitoring Technical Implementation Guide (1).pdf
+Isaac Desktop – Software Installation & Troubleshooting Documentation.pdf
+DaVinci Resolve Troubleshooting Documentation.pdf
+DaVinci Resolve Removal and Closure Documentation.pdf
+Tytle 2 Windows Endpoint Decommissioning and Removal from Action1.pdf
+Initial implementation guide created. Distributed Grandstream Wave installation guides to assigned users and provided onboarding support during the communications system rollout. .pdf
+SIM Managed Communication Ecosystem Implementation Preparation Guide.pdf
+Windows Virtualization Troubleshooting.pdf
+Security Camera Software Evaluation for TN-Laptop 1.pdf
+Weekly endpoint vulnerability and remediation report.pdf
+Project Presentation_ Web App Pentesting with DVWA & Mutillidae.pdf
+Jephete-Fenelon-Resume.pdf
