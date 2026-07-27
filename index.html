@@ -1,472 +1,137 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Cybersecurity portfolio of Jephete Fenelon, Junior Cybersecurity Analyst specializing in endpoint security, vulnerability management, patch management, cloud security, and technical documentation." />
-  <meta name="author" content="Jephete Fenelon" />
-  <title>Jephete Fenelon | Junior Cybersecurity Analyst</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Jephete Fenelon cybersecurity portfolio — Security Operations, Endpoint Security, Vulnerability Management, Incident Response, and System & Network Security.">
+  <title>Home | Jephete Fenelon</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
-  <div class="page-grid" aria-hidden="true"></div>
-
-  <header class="site-header">
-    <div class="nav-wrap">
-      <a class="brand" href="#home" aria-label="Jephete Fenelon home">
-        <span class="brand-mark">JF</span>
-        <span class="brand-text">Jephete Fenelon</span>
-      </a>
-
-      <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-
-      <nav class="site-nav" aria-label="Primary navigation">
-        <a href="#about">About</a>
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#credentials">Credentials</a>
-        <a class="nav-contact" href="#contact">Contact</a>
-      </nav>
-    </div>
-  </header>
+<body data-page="home">
+  <div class="ambient-grid" aria-hidden="true"></div>
+  
+<header class="site-header">
+  <div class="shell nav-row">
+    <a class="brand" href="index.html" aria-label="Jephete Fenelon home">
+      <span class="logo-mark">JF</span>
+      <span class="brand-name"><strong>JEPHETE</strong> <em>FENELON</em></span>
+    </a>
+    <button class="menu-button" aria-label="Open navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="index.html" data-page="home">Home</a>
+      <a href="about.html" data-page="about">About</a>
+      <a href="projects.html" data-page="projects">Projects</a>
+      <a href="certifications.html" data-page="certifications">Certifications</a>
+      <a href="skills.html" data-page="skills">Skills</a>
+      <a href="resume.html" data-page="resume">Resume</a>
+      <a href="contact.html" data-page="contact">Contact</a>
+    </nav>
+  </div>
+</header>
 
   <main>
-    <section id="home" class="hero section">
-      <div class="hero-orb orb-one"></div>
-      <div class="hero-orb orb-two"></div>
-
-      <div class="container hero-layout">
-        <div class="hero-copy reveal">
-          <p class="eyebrow"><span class="status-dot"></span> OPEN TO ENTRY-LEVEL CYBERSECURITY OPPORTUNITIES</p>
-          <h1>Jephete Fenelon</h1>
-          <h2>Junior Cybersecurity Analyst</h2>
-          <p class="hero-summary">
-            Endpoint security, vulnerability management, cloud security, Windows administration,
-            and technical documentation for modern enterprise environments.
-          </p>
-
-          <div class="hero-tags" aria-label="Key specialties">
-            <span>Endpoint Security</span>
-            <span>Vulnerability Management</span>
-            <span>Cloud Security</span>
-            <span>Technical Documentation</span>
-          </div>
-
-          <div class="hero-actions">
-            <a class="button button-primary" href="#projects">View Projects</a>
-            <a class="button button-secondary" href="docs/Jephete-Fenelon-Resume.pdf" target="_blank" rel="noopener">Download Resume</a>
-            <a class="button button-link" href="#contact">Contact Me <span aria-hidden="true">→</span></a>
-          </div>
-        </div>
-
-        <aside class="security-console reveal" aria-label="Cybersecurity profile overview">
-          <div class="console-top">
-            <div class="console-lights"><span></span><span></span><span></span></div>
-            <span class="console-title">security_profile.json</span>
-          </div>
-          <div class="console-body">
-            <p><span class="code-key">"name"</span>: <span class="code-value">"Jephete Fenelon"</span>,</p>
-            <p><span class="code-key">"role"</span>: <span class="code-value">"Junior Cybersecurity Analyst"</span>,</p>
-            <p><span class="code-key">"focus"</span>: [</p>
-            <p class="indent"><span class="code-value">"Endpoint Security"</span>,</p>
-            <p class="indent"><span class="code-value">"Vulnerability Management"</span>,</p>
-            <p class="indent"><span class="code-value">"Cloud Security"</span></p>
-            <p>],</p>
-            <p><span class="code-key">"certifications"</span>: [</p>
-            <p class="indent"><span class="code-value">"CompTIA A+"</span>,</p>
-            <p class="indent"><span class="code-value">"Security+"</span>,</p>
-            <p class="indent"><span class="code-value">"CySA+"</span></p>
-            <p>],</p>
-            <p><span class="code-key">"status"</span>: <span class="code-success">"Ready to Contribute"</span></p>
-          </div>
-        </aside>
-      </div>
-
-      <div class="hero-metrics container reveal">
-        <div><strong>3</strong><span>CompTIA Certifications</span></div>
-        <div><strong>14</strong><span>Documented Projects</span></div>
-        <div><strong>6+</strong><span>Security Focus Areas</span></div>
-        <div><strong>100%</strong><span>Hands-On Portfolio</span></div>
-      </div>
-    </section>
-
-    <section id="about" class="section section-light">
-      <div class="container narrow reveal">
-        <div class="section-heading">
-          <p class="section-kicker">ABOUT ME</p>
-          <h2>Cybersecurity Analyst</h2>
-          <div class="heading-line"></div>
-        </div>
-
-        <div class="about-copy">
-          <p>Junior Cybersecurity Analyst with hands-on experience in cybersecurity operations, endpoint security, vulnerability management, patch management, Windows endpoint administration, software deployment, and technical documentation. Experienced supporting enterprise environments through endpoint monitoring, security remediation, compliance reporting, and operational support.</p>
-
-          <p>Skilled in Action1 Endpoint Management for endpoint monitoring, vulnerability assessments, patch deployment, compliance reporting, endpoint inventory management, software deployment, and troubleshooting. Proficient with Cloudflare Zero Trust, Cloudflare Tunnel, Microsoft Authenticator, and Grandstream Wave, supporting secure remote access, multi-factor authentication (MFA), user onboarding, endpoint administration, and enterprise technology deployments.</p>
-
-          <p>Collaborated with management, vendors, and cross-functional teams to develop cybersecurity reports, executive summaries, KPI dashboards, risk assessments, implementation guides, and operational documentation that supported security initiatives and informed business decisions.</p>
-
-          <p><strong>CompTIA A+, Security+, and CySA+ certified.</strong> Seeking an entry-level role as a Junior Cybersecurity Analyst, SOC Analyst, Endpoint Security Analyst, Vulnerability Management Analyst, IT Security Analyst, or Cloud Security Analyst, where I can contribute to strengthening organizational security while continuing to grow as a cybersecurity professional.</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="experience" class="section">
-      <div class="container">
-        <div class="section-heading reveal">
-          <p class="section-kicker">PROFESSIONAL EXPERIENCE</p>
-          <h2>Hands-On Cybersecurity Operations</h2>
-          <div class="heading-line"></div>
-        </div>
-
-        <article class="experience-card reveal">
-          <div class="experience-side">
-            <span class="company-badge">TN</span>
-            <div>
-              <p class="date-label">Internship Experience</p>
-              <h3>Cybersecurity Intern</h3>
-              <p>Twigs Naturals</p>
-            </div>
-          </div>
-
-          <div class="experience-content">
-            <ul class="check-list">
-              <li>Supported enterprise endpoint monitoring, vulnerability assessment, patch management, software deployment, and remediation tracking using Action1 Endpoint Management.</li>
-              <li>Reviewed endpoint risk, missing updates, device inventory, connectivity exceptions, and compliance information to support security operations and business reporting.</li>
-              <li>Assisted with Cloudflare Zero Trust and Cloudflare Tunnel activities for secure remote access and internal service publishing.</li>
-              <li>Supported Windows endpoint administration, user onboarding, endpoint offboarding, application installation, troubleshooting, and system documentation.</li>
-              <li>Contributed to Microsoft Authenticator MFA and Grandstream Wave deployment support for secure user access and enterprise communications.</li>
-              <li>Developed activity reports, executive summaries, KPI dashboards, risk assessments, implementation guides, process documentation, and remediation records.</li>
-              <li>Collaborated with management, vendors, HR, marketing, and IT team members to support security initiatives and operational improvements.</li>
-            </ul>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section id="projects" class="section section-dark-alt">
-      <div class="container">
-        <div class="section-heading reveal">
-          <p class="section-kicker">PROJECT PORTFOLIO</p>
-          <h2>Selected Cybersecurity Projects</h2>
-          <div class="heading-line"></div>
-          <p class="section-intro">Each project represents hands-on technical work, troubleshooting, security operations, implementation support, or professional documentation.</p>
-        </div>
-
-        <div class="project-filter reveal" role="group" aria-label="Project filters">
-          <button class="filter-button active" data-filter="all">All Projects</button>
-          <button class="filter-button" data-filter="endpoint">Endpoint</button>
-          <button class="filter-button" data-filter="cloud">Cloud</button>
-          <button class="filter-button" data-filter="operations">Operations</button>
-          <button class="filter-button" data-filter="documentation">Documentation</button>
-        </div>
-
-        <div class="projects-grid">
-          <article class="project-card reveal" data-category="endpoint operations documentation">
-            <span class="project-number">01</span>
-            <div class="project-icon">EM</div>
-            <h3>Endpoint Vulnerability Remediation Plan</h3>
-            <p>Structured remediation plan covering endpoint risk, patching priorities, unresolved exceptions, compliance status, and follow-up actions.</p>
-            <div class="project-tech"><span>Action1</span><span>Vulnerability Management</span><span>Reporting</span></div>
-            <a href="docs/Twigs Naturals Endpoint Management Policy v1.0 Draft for Review (2).pdf" target="_blank" rel="noopener">View Documentation <span>↗</span></a>
-          </article>
-
-          <article class="project-card reveal" data-category="endpoint operations documentation">
-            <span class="project-number">02</span>
-            <div class="project-icon">WU</div>
-            <h3>Weekly Update & Vulnerability Summary</h3>
-            <p>Weekly security operations summary documenting missing updates, critical vulnerabilities, deployments, new releases, and remediation priorities.</p>
-            <div class="project-tech"><span>Action1</span><span>KPI Reporting</span><span>Patch Management</span></div>
-            <a href="docs/Action1 Weekly Vulnerability Remediation and Patch Management Summary.pdf" target="_blank" rel="noopener">View Documentation <span>↗</span></a>
-          </article>
-
-          <article class="project-card reveal" data-category="endpoint documentation">
-            <span class="project-number">03</span>
-            <div class="project-icon">EP</div>
-            <h3>Endpoint Management Policy</h3>
-            <p>Policy documentation defining endpoint ownership, device purpose, agent installation, monitoring, remediation, exceptions, and governance.</p>
-            <div class="project-tech"><span>Policy</span><span>Endpoint Governance</span><span>Compliance</span></div>
-            <a href="docs/Endpoint Management Implementation Guide.pdf" target="_blank" rel="noopener">View Documentation <span>↗</span></a>
-          </article>
-
-          <article class="project-card reveal" data-category="cloud operations">
-            <span class="project-number">04</span>
-            <div class="project-icon">CF</div>
-            <h3>Cloudflare Tunnel Camera Deployment</h3>
-            <p>Secure service publishing project involving tunnel validation, hostname mapping, connector deployment, local service verification, and access troubleshooting.</p>
-            <div class="project-tech"><span>Cloudflare Tunnel</span><span>Zero Trust</span><span>Remote Access</span></div>
-            <a href="docs/TN-Laptop1 Security Camera Deployment, Cloudflare Tunnel Implementation, and Remote Monitoring Technical Implementation Guide (1).pdf" target="_blank" rel="noopener">View Documentation <span>↗</span></a>
-          </article>
-
-          <article class="project-card reveal" data-category="endpoint operations">
-            <span class="project-number">05</span>
-            <div class="project-icon">SW</div>
-            <h3>Isaac Desktop Software Deployment</h3>
-            <p>Windows 11 software installation and troubleshooting plan covering multiple business applications, remote-access instability, and deployment risk.</p>
-            <div class="project-tech"><span>Windows 11</span><span>Software Deployment</span><span>Troubleshooting</span></div>
-            <a href="docs/Isaac Desktop – Software Installation & Troubleshooting Documentation.pdf" target="_blank" rel="noopener">View Documentation <span>↗</span></a>
-          </article>
-
-          <article class="project-card reveal" data-category="endpoint operations documentation">
-            <span class="project-number">06</span>
-            <div class="project-icon">DR</div>
-            <h3>DaVinci Resolve Troubleshooting</h3>
-            <p>Application troubleshooting project documenting entry-point errors, repair attempts, runtime checks, compatibility concerns, and escalation findings.</p>
-            <div class="project-tech"><span>Windows</span><span>Application Support</span><span>Root Cause Analysis</span></div>
-            <a href="docs/DaVinci Resolve Troubleshooting Documentation.pdf" target="_blank" rel="noopener">View Documentation <span>↗</span></a>
-          </article>
-
-          <article class="project-card reveal" data-category="endpoint operations documentation">
-            <span class="project-number">07</span>
-            <div class="project-icon">RM</div>
-            <h3>DaVinci Resolve Removal & Closure</h3>
-            <p>Formal removal and closure record documenting software uninstall, component cleanup, verification, collaboration, and final project outcome.</p>
-            <div class="project-tech"><span>Software Removal</span><span>Verification</span><span>Closure Report</span></div>
-            <a href="docs/DaVinci Resolve Removal and Closure Documentation.pdf" target="_blank" rel="noopener">View Documentation <span>↗</span></a>
-          </article>
-
-          <article class="project-card reveal" data-category="endpoint operations documentation">
-            <span class="project-number">08</span>
-            <div class="project-icon">OF</div>
-            <h3>Endpoint Offboarding & System Removal</h3>
-            <p>Secure offboarding workflow for a departed team member, including endpoint verification, removal from management, system status, and HR coordination.</p>
-            <div class="project-tech"><span>Offboarding</span><span>Action1</span><span>Access Control</span></div>
-            <a href="docs/Tytle 2 Windows Endpoint Decommissioning and Removal from Action1.pdf" target="_blank" rel="noopener">View Documentation <span>↗</span></a>
-          </article>
-
-          <article class="project-card reveal" data-category="operations documentation">
-            <span class="project-number">09</span>
-            <div class="project-icon">MFA</div>
-            <h3>MFA & Softphone Deployment Support</h3>
-            <p>Enterprise communications support covering Microsoft Authenticator, Grandstream Wave, user installation, extension planning, and onboarding guidance.</p>
-            <div class="project-tech"><span>MFA</span><span>Microsoft Authenticator</span><span>Grandstream Wave</span></div>
-            <a href="docs/Initial implementation guide created. Distributed Grandstream Wave installation guides to assigned users and provided onboarding support during the communications system rollout. .pdf" target="_blank" rel="noopener">View Documentation <span>↗</span></a>
-          </article>
-
-          <article class="project-card reveal" data-category="operations documentation">
-            <span class="project-number">10</span>
-            <div class="project-icon">RMM</div>
-            <h3>RMM/EDR Implementation Support</h3>
-            <p>Implementation support for a new managed RMM/EDR environment operating alongside Action1, including stakeholder coordination and deployment planning.</p>
-            <div class="project-tech"><span>RMM</span><span>EDR</span><span>Implementation</span></div>
-            <a href="docs/SIM Managed Communication Ecosystem Implementation Preparation Guide.pdf" target="_blank" rel="noopener">View Documentation <span>↗</span></a>
-          </article>
-
-          <article class="project-card reveal" data-category="endpoint operations documentation">
-            <span class="project-number">11</span>
-            <div class="project-icon">VM</div>
-            <h3>Windows Virtualization Troubleshooting</h3>
-            <p>Windows virtualization recovery project involving Windows features, BIOS troubleshooting, hypervisor configuration, services, and restart validation.</p>
-            <div class="project-tech"><span>Windows</span><span>Hyper-V</span><span>Virtualization</span></div>
-            <a href="docs/Windows Virtualization Troubleshooting.pdf" target="_blank" rel="noopener">View Documentation <span>↗</span></a>
-          </article>
-
-          <article class="project-card reveal" data-category="cloud operations documentation">
-            <span class="project-number">12</span>
-            <div class="project-icon">SC</div>
-            <h3>Security Camera Service Evaluation</h3>
-            <p>Evaluation of camera-service accessibility, endpoint requirements, secure publishing needs, Windows Firewall considerations, and deployment dependencies.</p>
-            <div class="project-tech"><span>Service Validation</span><span>Firewall</span><span>Cloudflare</span></div>
-            <a href="docs/Security Camera Software Evaluation for TN-Laptop 1.pdf" target="_blank" rel="noopener">View Documentation <span>↗</span></a>
-          </article>
-
-          <article class="project-card reveal" data-category="documentation operations">
-            <span class="project-number">13</span>
-            <div class="project-icon">RA</div>
-            <h3>Cybersecurity Risk Assessment</h3>
-            <p>Business-focused risk assessment documenting endpoint exposure, operational impact, remediation priorities, exceptions, and recommended security actions.</p>
-            <div class="project-tech"><span>Risk Assessment</span><span>Executive Reporting</span><span>Prioritization</span></div>
-            <a href="docs/Weekly endpoint vulnerability and remediation report.pdf" target="_blank" rel="noopener">View Documentation <span>↗</span></a>
-          </article>
-
-          <article class="project-card reveal" data-category="documentation operations">
-            <span class="project-number">14</span>
-            <div class="project-icon">PT</div>
-            <h3>Web Application Pentesting Presentation</h3>
-            <p>Cybersecurity presentation covering web application security concepts, common risks, testing methodology, findings, and defensive recommendations.</p>
-            <div class="project-tech"><span>Web Security</span><span>Penetration Testing</span><span>Presentation</span></div>
-            <a href="docs/Project Presentation_ Web App Pentesting with DVWA & Mutillidae.pdf" target="_blank" rel="noopener">View Documentation <span>↗</span></a>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="skills" class="section">
-      <div class="container">
-        <div class="section-heading reveal">
-          <p class="section-kicker">TECHNICAL SKILLS</p>
-          <h2>Security Capabilities</h2>
-          <div class="heading-line"></div>
-        </div>
-
-        <div class="skills-grid">
-          <article class="skill-card reveal">
-            <span class="skill-index">01</span>
-            <h3>Endpoint Security</h3>
-            <ul>
-              <li>Action1 Endpoint Management</li>
-              <li>Endpoint Monitoring</li>
-              <li>Endpoint Inventory</li>
-              <li>Risk Classification</li>
-              <li>Remediation Tracking</li>
-            </ul>
-          </article>
-
-          <article class="skill-card reveal">
-            <span class="skill-index">02</span>
-            <h3>Vulnerability Management</h3>
-            <ul>
-              <li>Vulnerability Assessments</li>
-              <li>Patch Management</li>
-              <li>Missing Update Analysis</li>
-              <li>Compliance Reporting</li>
-              <li>Exception Documentation</li>
-            </ul>
-          </article>
-
-          <article class="skill-card reveal">
-            <span class="skill-index">03</span>
-            <h3>Cloud & Access Security</h3>
-            <ul>
-              <li>Cloudflare Zero Trust</li>
-              <li>Cloudflare Tunnel</li>
-              <li>Secure Remote Access</li>
-              <li>Hostname Mapping</li>
-              <li>Service Validation</li>
-            </ul>
-          </article>
-
-          <article class="skill-card reveal">
-            <span class="skill-index">04</span>
-            <h3>Identity & Communications</h3>
-            <ul>
-              <li>Microsoft Authenticator</li>
-              <li>Multi-Factor Authentication</li>
-              <li>User Onboarding</li>
-              <li>Grandstream Wave</li>
-              <li>Softphone Deployment</li>
-            </ul>
-          </article>
-
-          <article class="skill-card reveal">
-            <span class="skill-index">05</span>
-            <h3>Windows Administration</h3>
-            <ul>
-              <li>Windows 10 & Windows 11</li>
-              <li>Software Deployment</li>
-              <li>Application Troubleshooting</li>
-              <li>Endpoint Offboarding</li>
-              <li>Virtualization Support</li>
-            </ul>
-          </article>
-
-          <article class="skill-card reveal">
-            <span class="skill-index">06</span>
-            <h3>Documentation & Reporting</h3>
-            <ul>
-              <li>Technical Documentation</li>
-              <li>Executive Summaries</li>
-              <li>KPI Dashboards</li>
-              <li>Risk Assessments</li>
-              <li>Implementation Guides</li>
-            </ul>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="credentials" class="section section-light">
-      <div class="container">
-        <div class="section-heading reveal">
-          <p class="section-kicker">EDUCATION & CERTIFICATIONS</p>
-          <h2>Professional Credentials</h2>
-          <div class="heading-line"></div>
-        </div>
-
-        <div class="credentials-layout">
-          <div class="certification-grid">
-            <article class="cert-card reveal">
-              <div class="cert-logo">A+</div>
-              <div>
-                <p>CompTIA</p>
-                <h3>A+ Certified</h3>
-                <span>IT Support & Hardware Foundations</span>
-              </div>
-            </article>
-
-            <article class="cert-card reveal">
-              <div class="cert-logo">S+</div>
-              <div>
-                <p>CompTIA</p>
-                <h3>Security+ Certified</h3>
-                <span>Core Cybersecurity Knowledge</span>
-              </div>
-            </article>
-
-            <article class="cert-card reveal">
-              <div class="cert-logo">CS</div>
-              <div>
-                <p>CompTIA</p>
-                <h3>CySA+ Certified</h3>
-                <span>Cybersecurity Analytics & Defense</span>
-              </div>
-            </article>
-          </div>
-
-          <div class="education-list">
-            <article class="education-card reveal">
-              <span class="education-year">Cybersecurity</span>
-              <div>
-                <h3>Adelphi University</h3>
-                <p>Advanced Cyber Security Bootcamp</p>
-              </div>
-            </article>
-
-            <article class="education-card reveal">
-              <span class="education-year">IT & Networking</span>
-              <div>
-                <h3>Hunter Business School</h3>
-                <p>Computer Technician Networking Specialist Diploma</p>
-              </div>
-            </article>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="section contact-section">
-      <div class="container contact-card reveal">
-        <div>
-          <p class="section-kicker">LET'S CONNECT</p>
-          <h2>Ready to contribute to your cybersecurity team.</h2>
-          <p>I am seeking an entry-level opportunity where I can apply my technical skills, documentation experience, security certifications, and hands-on project background.</p>
-        </div>
-
-        <div class="contact-actions">
-          <a class="button button-primary" href="mailto:jeph.fenelon@gmail.com">Email Me</a>
-          <a class="button button-secondary" href="tel:+16314824476">Call Me</a>
-          <a class="button button-secondary" href="https://www.linkedin.com/in/jephete-fenelon-64aa35214" target="_blank" rel="noopener">LinkedIn</a>
-          <a class="button button-secondary" href="https://github.com/jfenelon-cyber" target="_blank" rel="noopener">GitHub</a>
-        </div>
-
-        <p class="contact-note">Email: jeph.fenelon@gmail.com &nbsp;•&nbsp; Phone: (631) 482-4476</p>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-row">
-      <p>© <span id="year"></span> Jephete Fenelon. All rights reserved.</p>
-      <p>Built for cybersecurity opportunities.</p>
+    
+<section class="hero page-hero">
+  <div class="shell hero-grid">
+    <div class="portrait-card reveal">
+      <img src="assets/images/jephete-fenelon.png" alt="Professional portrait of Jephete Fenelon">
+      <div class="portrait-status"><span></span> Open to entry-level cybersecurity opportunities</div>
     </div>
-  </footer>
+    <div class="hero-copy reveal">
+      <p class="eyebrow">WELCOME TO MY CYBERSECURITY PORTFOLIO</p>
+      <h1>Jephete Fenelon</h1>
+      <h2>Junior Cybersecurity Analyst</h2>
+      <p class="hero-focus">Security Operations · Endpoint Security · Vulnerability Management · Incident Response · System &amp; Network Security</p>
+      <p class="lead">Early-career cybersecurity professional with enterprise internship experience supporting endpoint security, vulnerability remediation, cloud security, Windows administration, technical documentation, and IT operations.</p>
+      <div class="button-row">
+        <a class="button primary" href="projects.html">Explore Projects</a>
+        <a class="button secondary" href="resume.html">View Resume</a>
+      </div>
+      <div class="trust-row">
+        <span>CompTIA A+</span><span>Security+</span><span>CySA+</span><span>Adelphi University</span><span>Hunter Business School</span>
+      </div>
+    </div>
+  </div>
+</section>
 
-  <button id="backToTop" aria-label="Back to top">↑</button>
-  <script src="script.js"></script>
+<section class="section">
+  <div class="shell">
+    <div class="section-heading">
+      <div><p class="eyebrow">PROFESSIONAL OVERVIEW</p><h2>Focused on defensive cybersecurity</h2></div>
+      <a class="text-link" href="about.html">Read my full background →</a>
+    </div>
+    <div class="overview-grid">
+      <article class="feature-card"><div class="feature-icon">01</div><h3>Security Operations</h3><p>Supporting secure enterprise environments through monitoring, analysis, remediation, documentation, and coordinated response.</p></article>
+      <article class="feature-card"><div class="feature-icon">02</div><h3>Endpoint Security</h3><p>Hands-on work with endpoint management, patching, Windows administration, troubleshooting, onboarding, and offboarding.</p></article>
+      <article class="feature-card"><div class="feature-icon">03</div><h3>Vulnerability Management</h3><p>Reviewing exposure, prioritizing risks, deploying remediation, tracking exceptions, and reporting outcomes.</p></article>
+      <article class="feature-card"><div class="feature-icon">04</div><h3>Technical Documentation</h3><p>Creating SOPs, implementation guides, executive reports, knowledge-transfer documents, and project records.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section section-dark">
+  <div class="shell">
+    <div class="section-heading">
+      <div><p class="eyebrow">SELECTED WORK</p><h2>Featured cybersecurity projects</h2></div>
+      <a class="text-link" href="projects.html">View all projects →</a>
+    </div>
+    <div class="project-grid">
+      <article class="project-card">
+        <div class="project-top"><span class="project-tag">Endpoint Security</span><span class="project-number">01</span></div>
+        <h3>Action1 Endpoint Security &amp; Vulnerability Management</h3>
+        <p>Endpoint inventory, vulnerability review, patch remediation, exception tracking, and security reporting.</p>
+        <a href="projects/action1.html">View case study →</a>
+      </article>
+      <article class="project-card">
+        <div class="project-top"><span class="project-tag">Zero Trust</span><span class="project-number">02</span></div>
+        <h3>Cloudflare Zero Trust &amp; Tunnel Deployment</h3>
+        <p>Secure connector deployment, hostname routing, service validation, and remote-access troubleshooting.</p>
+        <a href="projects/cloudflare.html">View case study →</a>
+      </article>
+      <article class="project-card">
+        <div class="project-top"><span class="project-tag">Assessment</span><span class="project-number">03</span></div>
+        <h3>Greenbone Vulnerability Assessment</h3>
+        <p>Vulnerability scanning, risk review, findings analysis, remediation planning, and technical reporting.</p>
+        <a href="projects/greenbone.html">View case study →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="shell cta-panel">
+    <div>
+      <p class="eyebrow">LET'S CONNECT</p>
+      <h2>Ready to contribute to a security-focused team.</h2>
+      <p>Seeking Junior Cybersecurity Analyst, SOC Analyst, Security Operations, Endpoint Security, and Information Security opportunities.</p>
+    </div>
+    <a class="button primary" href="contact.html">Contact Me</a>
+  </div>
+</section>
+
+  </main>
+  
+<footer class="site-footer">
+  <div class="shell footer-row">
+    <div>
+      <strong>Jephete Fenelon</strong>
+      <p>Junior Cybersecurity Analyst · Security Operations</p>
+    </div>
+    <div class="footer-links">
+      <a href="mailto:jeph.fenelon@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/jephete-fenelon-64aa35214" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/jfenelon-cyber" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <p class="copyright">© <span data-year></span> Jephete Fenelon</p>
+  </div>
+</footer>
+
+  <button class="back-top" aria-label="Back to top">↑</button>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
