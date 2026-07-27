@@ -2,52 +2,83 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Jephete Fenelon cybersecurity portfolio">
-  <title>About | Jephete Fenelon</title>
-  <link rel="stylesheet" href="assets/css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Jephete Fenelon cybersecurity portfolio — Security Operations, Endpoint Security, Vulnerability Management, Incident Response, and System & Network Security.">
+  <title>Cloudflare | Jephete Fenelon</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
 </head>
-<body>
-
+<body data-page="projects">
+  <div class="ambient-grid" aria-hidden="true"></div>
+  
 <header class="site-header">
-  <div class="container nav">
-    <a class="brand" href="index.html">Jephete <span>Fenelon</span></a>
-    <button class="menu-btn" aria-label="Open menu">☰</button>
-    <nav class="nav-links">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="projects.html">Projects</a>
-      <a href="documentation.html">Documentation</a>
-      <a href="credentials.html">Credentials</a>
-      <a href="resume.html">Resume</a>
-      <a href="contact.html">Contact</a>
+  <div class="shell nav-row">
+    <a class="brand" href="../index.html" aria-label="Jephete Fenelon home">
+      <span class="logo-mark">JF</span>
+      <span class="brand-name"><strong>JEPHETE</strong> <em>FENELON</em></span>
+    </a>
+    <button class="menu-button" aria-label="Open navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="../index.html" data-page="home">Home</a>
+      <a href="../about.html" data-page="about">About</a>
+      <a href="../projects.html" data-page="projects">Projects</a>
+      <a href="../certifications.html" data-page="certifications">Certifications</a>
+      <a href="../skills.html" data-page="skills">Skills</a>
+      <a href="../resume.html" data-page="resume">Resume</a>
+      <a href="../contact.html" data-page="contact">Contact</a>
     </nav>
   </div>
 </header>
 
+  <main>
+    
+<section class="project-hero">
+  <div class="shell">
+    <a class="back-link" href="../projects.html">← Back to Projects</a>
+    <p class="eyebrow">CLOUD SECURITY CASE STUDY</p>
+    <h1>Cloudflare Zero Trust & Tunnel Deployment</h1>
+    <p class="lead">Secure connector deployment and troubleshooting for protected access to an internal camera service.</p>
+    <div class="skill-pills"><span>Cloudflare Zero Trust</span><span>Cloudflare Tunnel</span><span>Windows</span><span>DNS</span><span>Remote Support</span></div>
+  </div>
+</section>
+<section class="section">
+  <div class="shell project-detail-grid">
+    <article class="prose-card">
+      <h2>Project Objective</h2><p>Provide secure access to an internal service without exposing unnecessary inbound ports while validating the connector, hostname, route, and local service.</p>
+      <h2>Technical Work</h2><ul class="check-list"><li>Validated tunnel configuration and public hostname mapping.</li><li>Installed and confirmed the Cloudflare connector on the endpoint.</li><li>Verified tunnel status and published route.</li><li>Documented the need to validate the local service address and port.</li><li>Identified remote-access limitations and provided a professional escalation path.</li></ul>
+      <h2>Outcome</h2><p>Established the cloud-side tunnel and connector configuration, with remaining local-service validation clearly documented for authorized follow-up.</p>
+    </article>
+    <aside class="sidebar-card sticky">
+      <h3>Portfolio Evidence</h3>
+      <p>This case study summarizes enterprise work while avoiding disclosure of sensitive organizational information.</p>
+      <a class="button secondary full" href="../contact.html">Discuss This Project</a>
+      <a class="next-project" href="greenbone.html">Next: Greenbone Assessment →</a>
+    </aside>
+  </div>
+</section>
 
-<main>
-<section class="page-hero"><div class="container"><span class="eyebrow">About Me</span><h1>Cybersecurity built on technical discipline and clear communication.</h1><p class="lead">My background combines formal cybersecurity education, professional certifications, practical internship experience, and detailed technical documentation.</p></div></section>
-<section><div class="container grid-2">
-  <article class="card"><h2>Professional Profile</h2><p>I focus on security operations, endpoint security, vulnerability management, cloud security, Windows administration, incident response, and technical documentation. I enjoy turning technical work into repeatable processes that teams can understand and maintain.</p></article>
-  <article class="card"><h2>Education & Training</h2><ul class="list-clean"><li>Hunter Business School</li><li>Adelphi University cybersecurity training</li><li>CompTIA A+, Security+, and CySA+</li><li>Cybersecurity internship experience with Twigs Naturals</li></ul></article>
-</div></section>
-<section><div class="container"><div class="section-head"><div><span class="eyebrow">Core Focus</span><h2>What I bring</h2></div></div>
-<div class="grid-3">
-  <article class="card"><h3>Security Operations</h3><p>Monitoring, investigation, remediation support, escalation, and evidence-based reporting.</p></article>
-  <article class="card"><h3>Endpoint & Vulnerability Management</h3><p>Patch visibility, endpoint ownership, risk classification, exception tracking, and remediation planning.</p></article>
-  <article class="card"><h3>Technical Documentation</h3><p>Policies, procedures, implementation guides, activity reports, and step-by-step troubleshooting records.</p></article>
-</div></div></section>
-</main>
-
-
+  </main>
+  
 <footer class="site-footer">
-  <div class="container footer-row">
-    <span>© <span data-year></span> Jephete Fenelon</span>
-    <span>Junior Cybersecurity Analyst Portfolio</span>
+  <div class="shell footer-row">
+    <div>
+      <strong>Jephete Fenelon</strong>
+      <p>Junior Cybersecurity Analyst · Security Operations</p>
+    </div>
+    <div class="footer-links">
+      <a href="mailto:jeph.fenelon@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/jephete-fenelon-64aa35214" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/jfenelon-cyber" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <p class="copyright">© <span data-year></span> Jephete Fenelon</p>
   </div>
 </footer>
-<script src="assets/js/main.js"></script>
 
+  <button class="back-top" aria-label="Back to top">↑</button>
+  <script src="../assets/js/main.js"></script>
 </body>
 </html>

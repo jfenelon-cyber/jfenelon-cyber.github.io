@@ -2,50 +2,83 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Jephete Fenelon cybersecurity portfolio">
-  <title>Projects | Jephete Fenelon</title>
-  <link rel="stylesheet" href="assets/css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Jephete Fenelon cybersecurity portfolio — Security Operations, Endpoint Security, Vulnerability Management, Incident Response, and System & Network Security.">
+  <title>Action1 | Jephete Fenelon</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
 </head>
-<body>
-
+<body data-page="projects">
+  <div class="ambient-grid" aria-hidden="true"></div>
+  
 <header class="site-header">
-  <div class="container nav">
-    <a class="brand" href="index.html">Jephete <span>Fenelon</span></a>
-    <button class="menu-btn" aria-label="Open menu">☰</button>
-    <nav class="nav-links">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="projects.html">Projects</a>
-      <a href="documentation.html">Documentation</a>
-      <a href="credentials.html">Credentials</a>
-      <a href="resume.html">Resume</a>
-      <a href="contact.html">Contact</a>
+  <div class="shell nav-row">
+    <a class="brand" href="../index.html" aria-label="Jephete Fenelon home">
+      <span class="logo-mark">JF</span>
+      <span class="brand-name"><strong>JEPHETE</strong> <em>FENELON</em></span>
+    </a>
+    <button class="menu-button" aria-label="Open navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="../index.html" data-page="home">Home</a>
+      <a href="../about.html" data-page="about">About</a>
+      <a href="../projects.html" data-page="projects">Projects</a>
+      <a href="../certifications.html" data-page="certifications">Certifications</a>
+      <a href="../skills.html" data-page="skills">Skills</a>
+      <a href="../resume.html" data-page="resume">Resume</a>
+      <a href="../contact.html" data-page="contact">Contact</a>
     </nav>
   </div>
 </header>
 
+  <main>
+    
+<section class="project-hero">
+  <div class="shell">
+    <a class="back-link" href="../projects.html">← Back to Projects</a>
+    <p class="eyebrow">ENDPOINT SECURITY CASE STUDY</p>
+    <h1>Action1 Endpoint Security & Vulnerability Management</h1>
+    <p class="lead">Enterprise endpoint monitoring, vulnerability remediation, patch management, exception tracking, and technical reporting.</p>
+    <div class="skill-pills"><span>Action1</span><span>Windows 10/11</span><span>Patch Management</span><span>Vulnerability Management</span><span>Technical Reporting</span></div>
+  </div>
+</section>
+<section class="section">
+  <div class="shell project-detail-grid">
+    <article class="prose-card">
+      <h2>Project Objective</h2><p>Support an endpoint-management program that reduced risk through accurate inventory, vulnerability review, patch deployment, documented exceptions, and clear communication.</p>
+      <h2>Technical Work</h2><ul class="check-list"><li>Reviewed endpoint status, ownership, purpose, and availability.</li><li>Analyzed missing updates and vulnerability exposure.</li><li>Supported patch deployment and remediation tracking.</li><li>Documented endpoints that could not be treated because of connectivity or availability.</li><li>Created activity summaries, action items, exceptions, and next-step recommendations.</li></ul>
+      <h2>Outcome</h2><p>Produced repeatable documentation and improved visibility into endpoint risk, remediation progress, and outstanding exceptions.</p>
+    </article>
+    <aside class="sidebar-card sticky">
+      <h3>Portfolio Evidence</h3>
+      <p>This case study summarizes enterprise work while avoiding disclosure of sensitive organizational information.</p>
+      <a class="button secondary full" href="../contact.html">Discuss This Project</a>
+      <a class="next-project" href="cloudflare.html">Next: Cloudflare Zero Trust →</a>
+    </aside>
+  </div>
+</section>
 
-<main>
-<section class="page-hero"><div class="container"><span class="eyebrow">Projects</span><h1>Cybersecurity projects and case studies</h1><p class="lead">Each project highlights the objective, tools, actions, outcome, and skills demonstrated.</p></div></section>
-<section><div class="container grid-2">
-  <article class="card"><h3>Endpoint Vulnerability Remediation Plan</h3><p><strong>Objective:</strong> Identify missing updates and reduce endpoint risk.</p><p><strong>Tools:</strong> Action1, Windows endpoints, reporting templates.</p><p><strong>Outcome:</strong> Remediation activity was documented with exceptions for unavailable endpoints.</p><span class="tag">Action1</span><span class="tag">Patching</span><span class="tag">Risk Reporting</span></article>
-  <article class="card"><h3>Cloudflare Tunnel – Camera Service</h3><p><strong>Objective:</strong> Publish a camera service securely through Cloudflare.</p><p><strong>Tools:</strong> Cloudflare Tunnel, public hostname routing, Windows.</p><p><strong>Outcome:</strong> Tunnel and route validation completed; local service verification identified as the remaining dependency.</p><span class="tag">Cloudflare</span><span class="tag">Zero Trust</span></article>
-  <article class="card"><h3>DaVinci Resolve Troubleshooting and Removal</h3><p><strong>Objective:</strong> Investigate a recurring DLL entry-point error.</p><p><strong>Actions:</strong> Repair, reinstall, runtime validation, and component cleanup.</p><p><strong>Outcome:</strong> Software was safely removed after hardware compatibility concerns.</p><span class="tag">Troubleshooting</span><span class="tag">Windows</span></article>
-  <article class="card"><h3>Endpoint Offboarding</h3><p><strong>Objective:</strong> Remove a departed user's endpoint from management.</p><p><strong>Actions:</strong> Verified device identity, status, and ownership before removal.</p><p><strong>Outcome:</strong> Endpoint was removed and the process was documented.</p><span class="tag">Offboarding</span><span class="tag">Asset Management</span></article>
-  <article class="card"><h3>Windows Virtualization Troubleshooting</h3><p><strong>Objective:</strong> Resolve Windows Subsystem for Android virtualization errors.</p><p><strong>Actions:</strong> Enabled Windows features, verified hypervisor settings, and tested services.</p><p><strong>Outcome:</strong> Virtualization became operational.</p><span class="tag">Windows</span><span class="tag">Hyper-V</span></article>
-  <article class="card"><h3>Web Application Penetration Testing</h3><p><strong>Objective:</strong> Assess a web application for security weaknesses.</p><p><strong>Tools:</strong> Nmap, Greenbone, security testing methodology.</p><p><strong>Outcome:</strong> Findings and recommendations were documented in a VAPT report.</p><span class="tag">VAPT</span><span class="tag">Nmap</span></article>
-</div></section>
-</main>
-
-
+  </main>
+  
 <footer class="site-footer">
-  <div class="container footer-row">
-    <span>© <span data-year></span> Jephete Fenelon</span>
-    <span>Junior Cybersecurity Analyst Portfolio</span>
+  <div class="shell footer-row">
+    <div>
+      <strong>Jephete Fenelon</strong>
+      <p>Junior Cybersecurity Analyst · Security Operations</p>
+    </div>
+    <div class="footer-links">
+      <a href="mailto:jeph.fenelon@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/jephete-fenelon-64aa35214" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/jfenelon-cyber" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <p class="copyright">© <span data-year></span> Jephete Fenelon</p>
   </div>
 </footer>
-<script src="assets/js/main.js"></script>
 
+  <button class="back-top" aria-label="Back to top">↑</button>
+  <script src="../assets/js/main.js"></script>
 </body>
 </html>
