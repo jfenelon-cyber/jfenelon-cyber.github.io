@@ -4,18 +4,18 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Jephete Fenelon cybersecurity portfolio — Security Operations, Endpoint Security, Vulnerability Management, Incident Response, and System & Network Security.">
-  <title>About | Jephete Fenelon</title>
+  <title>Nmap | Jephete Fenelon</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
 </head>
-<body data-page="about">
+<body data-page="projects">
   <div class="ambient-grid" aria-hidden="true"></div>
   
 <header class="site-header">
   <div class="shell nav-row">
-    <a class="brand" href="index.html" aria-label="Jephete Fenelon home">
+    <a class="brand" href="../index.html" aria-label="Jephete Fenelon home">
       <span class="logo-mark">JF</span>
       <span class="brand-name"><strong>JEPHETE</strong> <em>FENELON</em></span>
     </a>
@@ -23,48 +23,41 @@
       <span></span><span></span><span></span>
     </button>
     <nav class="nav-links" aria-label="Primary navigation">
-      <a href="index.html" data-page="home">Home</a>
-      <a href="about.html" data-page="about">About</a>
-      <a href="projects.html" data-page="projects">Projects</a>
-      <a href="certifications.html" data-page="certifications">Certifications</a>
-      <a href="skills.html" data-page="skills">Skills</a>
-      <a href="resume.html" data-page="resume">Resume</a>
-      <a href="contact.html" data-page="contact">Contact</a>
+      <a href="../index.html" data-page="home">Home</a>
+      <a href="../about.html" data-page="about">About</a>
+      <a href="../projects.html" data-page="projects">Projects</a>
+      <a href="../certifications.html" data-page="certifications">Certifications</a>
+      <a href="../skills.html" data-page="skills">Skills</a>
+      <a href="../resume.html" data-page="resume">Resume</a>
+      <a href="../contact.html" data-page="contact">Contact</a>
     </nav>
   </div>
 </header>
 
   <main>
     
-<section class="inner-hero">
-  <div class="shell inner-hero-grid">
-    <div><p class="eyebrow">ABOUT ME</p><h1>Building a career in Security Operations</h1><p class="lead">A practical foundation built through formal education, CompTIA certifications, enterprise internship experience, and hands-on cybersecurity projects.</p></div>
-    <img class="inner-photo" src="assets/images/jephete-fenelon.png" alt="Jephete Fenelon">
+<section class="project-hero">
+  <div class="shell">
+    <a class="back-link" href="../projects.html">← Back to Projects</a>
+    <p class="eyebrow">NETWORK SECURITY CASE STUDY</p>
+    <h1>Nmap Network Discovery & Service Enumeration</h1>
+    <p class="lead">Network discovery and enumeration used to identify live hosts, exposed ports, services, and potential security concerns.</p>
+    <div class="skill-pills"><span>Nmap</span><span>Network Discovery</span><span>Port Scanning</span><span>Service Enumeration</span><span>Technical Reporting</span></div>
   </div>
 </section>
 <section class="section">
-  <div class="shell content-grid">
+  <div class="shell project-detail-grid">
     <article class="prose-card">
-      <h2>Professional Summary</h2>
-      <p>I am Jephete Fenelon, an aspiring Security Operations (SecOps) professional with hands-on experience in enterprise cybersecurity and information technology. Through formal education, industry certifications, and a cybersecurity internship, I developed practical experience in endpoint security, vulnerability management, cloud security, Windows administration, incident response, technical documentation, and enterprise IT support.</p>
-      <p>During my Cybersecurity Internship at Twigs Naturals, I supported enterprise cybersecurity and IT initiatives using Action1 Endpoint Management, Cloudflare Zero Trust, and Cloudflare Tunnel. My work included vulnerability remediation, patch management, remote endpoint support, user onboarding, troubleshooting, implementation meetings, and technical documentation.</p>
-      <p>I value professionalism, teamwork, integrity, ethical security practices, clear communication, and continuous improvement. My long-term goal is to contribute to a collaborative Security Operations team while continuing to build expertise in defensive cybersecurity.</p>
+      <h2>Project Objective</h2><p>Map a defined network environment, identify live hosts and reachable services, and convert technical findings into clear security observations.</p>
+      <h2>Technical Work</h2><ul class="check-list"><li>Performed host discovery to identify reachable systems.</li><li>Conducted targeted port and service scans.</li><li>Reviewed service versions and exposure.</li><li>Documented findings, limitations, and security considerations.</li><li>Connected scan results to vulnerability-assessment and remediation activities.</li></ul>
+      <h2>Outcome</h2><p>Produced a structured network-security workflow that supports asset visibility, assessment planning, and defensive analysis.</p>
     </article>
-    <aside class="sidebar-card">
-      <h3>Career Focus</h3>
-      <ul class="check-list">
-        <li>Junior Cybersecurity Analyst</li><li>SOC Analyst</li><li>Security Operations Analyst</li><li>Endpoint Security Analyst</li><li>Information Security Analyst</li>
-      </ul>
-      <a class="button secondary full" href="contact.html">Connect With Me</a>
+    <aside class="sidebar-card sticky">
+      <h3>Portfolio Evidence</h3>
+      <p>This case study summarizes enterprise work while avoiding disclosure of sensitive organizational information.</p>
+      <a class="button secondary full" href="../contact.html">Discuss This Project</a>
+      <a class="next-project" href="windows-support.html">Next: Windows Support →</a>
     </aside>
-  </div>
-</section>
-<section class="section section-dark">
-  <div class="shell timeline">
-    <article><span>01</span><div><h3>Hunter Business School</h3><p>Formal training in Information Technology, technical support, networking, operating systems, and enterprise IT fundamentals.</p></div></article>
-    <article><span>02</span><div><h3>Adelphi University</h3><p>Cybersecurity education supporting defensive security, risk management, vulnerability assessment, and security operations.</p></div></article>
-    <article><span>03</span><div><h3>CompTIA Certifications</h3><p>CompTIA A+, Security+, and CySA+ certifications supporting IT infrastructure, defensive security, analytics, vulnerability management, and incident response.</p></div></article>
-    <article><span>04</span><div><h3>Cybersecurity Internship</h3><p>Enterprise experience supporting endpoint management, Cloudflare Zero Trust, vulnerability remediation, technical documentation, and IT projects.</p></div></article>
   </div>
 </section>
 
@@ -86,6 +79,6 @@
 </footer>
 
   <button class="back-top" aria-label="Back to top">↑</button>
-  <script src="assets/js/main.js"></script>
+  <script src="../assets/js/main.js"></script>
 </body>
 </html>
