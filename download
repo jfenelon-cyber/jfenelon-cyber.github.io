@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Jephete Fenelon cybersecurity portfolio — Security Operations, Endpoint Security, Vulnerability Management, Incident Response, and System & Network Security.">
-  <title>Windows-Support | Jephete Fenelon</title>
+  <title>Offboarding | Jephete Fenelon</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
@@ -40,27 +40,27 @@
 <section class="project-hero">
   <div class="shell">
     <a class="back-link" href="../projects.html">← Back to Projects</a>
-    <p class="eyebrow">WINDOWS ADMINISTRATION CASE STUDY</p>
-    <h1>Windows Software Deployment & Troubleshooting</h1>
-    <p class="lead">Remote software deployment planning and troubleshooting for a Windows 11 enterprise endpoint.</p>
-    <div class="skill-pills"><span>Windows 11</span><span>Remote Support</span><span>Software Deployment</span><span>Troubleshooting</span><span>Documentation</span></div>
+    <p class="eyebrow">ENDPOINT LIFECYCLE CASE STUDY</p>
+    <h1>Endpoint Offboarding & System Removal</h1>
+    <p class="lead">A controlled process for removing a departed user's endpoint from centralized management.</p>
+    <div class="skill-pills"><span>Action1</span><span>Endpoint Lifecycle</span><span>Offboarding</span><span>Asset Verification</span><span>Closure Documentation</span></div>
   </div>
 </section>
 <section class="section">
   <div class="shell project-detail-grid">
     <article class="prose-card">
-      <h2>Project Objective</h2><p>Support installation of approved applications while addressing remote-display instability, compatibility risk, and access limitations.</p>
-      <h2>Technical Work</h2><ul class="check-list"><li>Verified operating-system and endpoint status.</li><li>Planned software deployment in a safe sequence.</li><li>Troubleshot remote black-screen behavior and restart options.</li><li>Assessed application compatibility and staged higher-risk software last.</li><li>Documented recovery steps and escalation requirements.</li></ul>
-      <h2>Outcome</h2><p>Created a practical troubleshooting and deployment record that reduced risk and supported team knowledge transfer.</p>
+      <h2>Project Objective</h2><p>Verify the endpoint, confirm ownership and status, remove it from management, and document completion for organizational records.</p>
+      <h2>Technical Work</h2><ul class="check-list"><li>Located the endpoint and confirmed device details.</li><li>Reviewed connection status and ownership information.</li><li>Removed the device from endpoint management.</li><li>Verified removal and documented the result.</li><li>Coordinated status reporting with relevant stakeholders.</li></ul>
+      <h2>Outcome</h2><p>Completed a documented endpoint-removal process that supported asset governance and reduced unnecessary management exposure.</p>
     </article>
     <aside class="sidebar-card sticky">
       <h3>Portfolio Evidence</h3>
       <p>This case study summarizes enterprise work while avoiding disclosure of sensitive organizational information.</p>
       
-      <a class="button primary full" href="../docs/Isaac Desktop – Software Installation & Troubleshooting Documentation.pdf" target="_blank" rel="noopener">View PDF Documentation</a>
-      <a class="button secondary full" href="../docs/Isaac Desktop – Software Installation & Troubleshooting Documentation.pdf" download>Download Documentation</a>
+      <a class="button primary full" href="../docs/Tytle 2 Windows Endpoint Decommissioning and Removal from Action1.pdf" target="_blank" rel="noopener">View PDF Documentation</a>
+      <a class="button secondary full" href="../docs/Tytle 2 Windows Endpoint Decommissioning and Removal from Action1.pdf" download>Download Documentation</a>
       <a class="button secondary full" href="../contact.html">Discuss This Project</a>
-      <a class="next-project" href="offboarding.html">Next: Endpoint Offboarding →</a>
+      <a class="next-project" href="../projects.html">Next: Project Library →</a>
     </aside>
   </div>
 </section>

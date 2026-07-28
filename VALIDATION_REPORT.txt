@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Jephete Fenelon cybersecurity documentation library.">
+  <title>Documentation | Jephete Fenelon</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="documentation">
+  <div class="ambient-grid" aria-hidden="true"></div>
+  <header class="site-header">
+    <div class="shell nav-row">
+      <a class="brand" href="index.html" aria-label="Jephete Fenelon home">
+        <span class="logo-mark">JF</span>
+        <span class="brand-name"><strong>JEPHETE</strong> <em>FENELON</em></span>
+      </a>
+      <button class="menu-button" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="index.html" data-page="home">Home</a>
+        <a href="about.html" data-page="about">About</a>
+        <a href="projects.html" data-page="projects">Projects</a>
+        <a href="documentation.html" data-page="documentation">Documentation</a>
+        <a href="certifications.html" data-page="certifications">Certifications</a>
+        <a href="skills.html" data-page="skills">Skills</a>
+        <a href="resume.html" data-page="resume">Resume</a>
+        <a href="contact.html" data-page="contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+<section class="inner-hero compact">
+  <div class="shell">
+    <p class="eyebrow">DOCUMENTATION LIBRARY</p>
+    <h1>Reports, guides, policies, and project records</h1>
+    <p class="lead">A dedicated collection of the technical documentation I created through cybersecurity, endpoint-management, cloud-security, Windows-support, and enterprise implementation projects.</p>
+  </div>
+</section>
+<section class="section">
+  <div class="shell">
+    <div class="document-feature">
+      <div>
+        <p class="eyebrow">PROFESSIONAL RESUME</p>
+        <h2>Jephete Fenelon — Cybersecurity Resume</h2>
+        <p>View or download my current resume for Junior Cybersecurity Analyst, SOC Analyst, Security Operations, Endpoint Security, and Information Security opportunities.</p>
+      </div>
+      <div class="document-actions">
+        <a class="button primary" href="mailto:jeph.fenelon@gmail.com?subject=Resume%20Request%20-%20Jephete%20Fenelon" target="_blank" rel="noopener">View Resume</a>
+        <a class="button secondary" href="mailto:jeph.fenelon@gmail.com?subject=Resume%20Request%20-%20Jephete%20Fenelon" download>Request Resume PDF</a>
+      </div>
+    </div>
+
+    <div class="section-heading documentation-heading">
+      <div><p class="eyebrow">PROJECT EVIDENCE</p><h2>Technical documentation</h2></div>
+    </div>
+    <div class="document-grid">
+      
+      <article class="document-card">
+        <span class="project-tag">Policy & Governance</span>
+        <h2>Twigs Naturals Endpoint Management Policy</h2>
+        <p>Professional project documentation prepared to support implementation, troubleshooting, reporting, knowledge transfer, and portfolio evidence.</p>
+        <div class="document-actions">
+          <a class="button primary" href="docs/Twigs Naturals Endpoint Management Policy v1.0 Draft for Review (2).pdf" target="_blank" rel="noopener">View PDF</a>
+          <a class="button secondary" href="docs/Twigs Naturals Endpoint Management Policy v1.0 Draft for Review (2).pdf" download>Download</a>
+        </div>
+      </article>
+      <article class="document-card">
+        <span class="project-tag">Endpoint Security</span>
+        <h2>Endpoint Management Implementation Guide</h2>
+        <p>Professional project documentation prepared to support implementation, troubleshooting, reporting, knowledge transfer, and portfolio evidence.</p>
+        <div class="document-actions">
+          <a class="button primary" href="docs/Endpoint Management Implementation Guide.pdf" target="_blank" rel="noopener">View PDF</a>
+          <a class="button secondary" href="docs/Endpoint Management Implementation Guide.pdf" download>Download</a>
+        </div>
+      </article>
+      <article class="document-card">
+        <span class="project-tag">Endpoint Security</span>
+        <h2>Action1 Operational Monitoring and Endpoint Management Review</h2>
+        <p>Professional project documentation prepared to support implementation, troubleshooting, reporting, knowledge transfer, and portfolio evidence.</p>
+        <div class="document-actions">
+          <a class="button primary" href="docs/Action1 Operational Monitoring and Endpoint Management Review.pdf" target="_blank" rel="noopener">View PDF</a>
+          <a class="button secondary" href="docs/Action1 Operational Monitoring and Endpoint Management Review.pdf" download>Download</a>
+        </div>
+      </article>
+      <article class="document-card">
+        <span class="project-tag">Vulnerability Management</span>
+        <h2>Action1 Weekly Vulnerability Remediation and Patch Management Summary</h2>
+        <p>Professional project documentation prepared to support implementation, troubleshooting, reporting, knowledge transfer, and portfolio evidence.</p>
+        <div class="document-actions">
+          <a class="button primary" href="docs/Action1 Weekly Vulnerability Remediation and Patch Management Summary.pdf" target="_blank" rel="noopener">View PDF</a>
+          <a class="button secondary" href="docs/Action1 Weekly Vulnerability Remediation and Patch Management Summary.pdf" download>Download</a>
+        </div>
+      </article>
+      <article class="document-card">
+        <span class="project-tag">Vulnerability Management</span>
+        <h2>Weekly Endpoint Vulnerability and Remediation Report</h2>
+        <p>Professional project documentation prepared to support implementation, troubleshooting, reporting, knowledge transfer, and portfolio evidence.</p>
+        <div class="document-actions">
+          <a class="button primary" href="docs/Weekly endpoint vulnerability and remediation report.pdf" target="_blank" rel="noopener">View PDF</a>
+          <a class="button secondary" href="docs/Weekly endpoint vulnerability and remediation report.pdf" download>Download</a>
+        </div>
+      </article>
+      <article class="document-card">
+        <span class="project-tag">Cloud Security</span>
+        <h2>TN-Laptop1 Security Camera Deployment, Cloudflare Tunnel Implementation, and Remote Monitoring</h2>
+        <p>Professional project documentation prepared to support implementation, troubleshooting, reporting, knowledge transfer, and portfolio evidence.</p>
+        <div class="document-actions">
+          <a class="button primary" href="docs/TN-Laptop1 Security Camera Deployment, Cloudflare Tunnel Implementation, and Remote Monitoring Technical Implementation Guide (1).pdf" target="_blank" rel="noopener">View PDF</a>
+          <a class="button secondary" href="docs/TN-Laptop1 Security Camera Deployment, Cloudflare Tunnel Implementation, and Remote Monitoring Technical Implementation Guide (1).pdf" download>Download</a>
+        </div>
+      </article>
+      <article class="document-card">
+        <span class="project-tag">Windows & Deployment</span>
+        <h2>Security Camera Software Evaluation for TN-Laptop 1</h2>
+        <p>Professional project documentation prepared to support implementation, troubleshooting, reporting, knowledge transfer, and portfolio evidence.</p>
+        <div class="document-actions">
+          <a class="button primary" href="docs/TN-Laptop1 Security Camera Deployment, Cloudflare Tunnel Implementation, and Remote Monitoring Technical Implementation Guide (1).pdf" target="_blank" rel="noopener">View PDF</a>
+          <a class="button secondary" href="docs/TN-Laptop1 Security Camera Deployment, Cloudflare Tunnel Implementation, and Remote Monitoring Technical Implementation Guide (1).pdf" download>Download</a>
+        </div>
+      </article>
+      <article class="document-card">
+        <span class="project-tag">Endpoint Lifecycle</span>
+        <h2>Tytle 2 Windows Endpoint Decommissioning and Removal from Action1</h2>
+        <p>Professional project documentation prepared to support implementation, troubleshooting, reporting, knowledge transfer, and portfolio evidence.</p>
+        <div class="document-actions">
+          <a class="button primary" href="docs/Tytle 2 Windows Endpoint Decommissioning and Removal from Action1.pdf" target="_blank" rel="noopener">View PDF</a>
+          <a class="button secondary" href="docs/Tytle 2 Windows Endpoint Decommissioning and Removal from Action1.pdf" download>Download</a>
+        </div>
+      </article>
+      <article class="document-card">
+        <span class="project-tag">Windows & Deployment</span>
+        <h2>Isaac Desktop – Software Installation & Troubleshooting</h2>
+        <p>Professional project documentation prepared to support implementation, troubleshooting, reporting, knowledge transfer, and portfolio evidence.</p>
+        <div class="document-actions">
+          <a class="button primary" href="docs/Isaac Desktop – Software Installation & Troubleshooting Documentation.pdf" target="_blank" rel="noopener">View PDF</a>
+          <a class="button secondary" href="docs/Isaac Desktop – Software Installation & Troubleshooting Documentation.pdf" download>Download</a>
+        </div>
+      </article>
+      <article class="document-card">
+        <span class="project-tag">Troubleshooting</span>
+        <h2>DaVinci Resolve Troubleshooting Documentation</h2>
+        <p>Professional project documentation prepared to support implementation, troubleshooting, reporting, knowledge transfer, and portfolio evidence.</p>
+        <div class="document-actions">
+          <a class="button primary" href="docs/DaVinci Resolve Troubleshooting Documentation.pdf" target="_blank" rel="noopener">View PDF</a>
+          <a class="button secondary" href="docs/DaVinci Resolve Troubleshooting Documentation.pdf" download>Download</a>
+        </div>
+      </article>
+      <article class="document-card">
+        <span class="project-tag">Troubleshooting</span>
+        <h2>DaVinci Resolve Removal and Closure Documentation</h2>
+        <p>Professional project documentation prepared to support implementation, troubleshooting, reporting, knowledge transfer, and portfolio evidence.</p>
+        <div class="document-actions">
+          <a class="button primary" href="docs/DaVinci Resolve Removal and Closure Documentation.pdf" target="_blank" rel="noopener">View PDF</a>
+          <a class="button secondary" href="docs/DaVinci Resolve Removal and Closure Documentation.pdf" download>Download</a>
+        </div>
+      </article>
+      <article class="document-card">
+        <span class="project-tag">Communications</span>
+        <h2>Grandstream Wave Deployment and User Onboarding</h2>
+        <p>Professional project documentation prepared to support implementation, troubleshooting, reporting, knowledge transfer, and portfolio evidence.</p>
+        <div class="document-actions">
+          <a class="button primary" href="docs/Initial implementation guide created. Distributed Grandstream Wave installation guides to assigned users and provided onboarding support during the communications system rollout. .pdf" target="_blank" rel="noopener">View PDF</a>
+          <a class="button secondary" href="docs/Initial implementation guide created. Distributed Grandstream Wave installation guides to assigned users and provided onboarding support during the communications system rollout. .pdf" download>Download</a>
+        </div>
+      </article>
+      <article class="document-card">
+        <span class="project-tag">Communications</span>
+        <h2>SIM Managed Communication Ecosystem Implementation Preparation Guide</h2>
+        <p>Professional project documentation prepared to support implementation, troubleshooting, reporting, knowledge transfer, and portfolio evidence.</p>
+        <div class="document-actions">
+          <a class="button primary" href="docs/SIM Managed Communication Ecosystem Implementation Preparation Guide.pdf" target="_blank" rel="noopener">View PDF</a>
+          <a class="button secondary" href="docs/SIM Managed Communication Ecosystem Implementation Preparation Guide.pdf" download>Download</a>
+        </div>
+      </article>
+      <article class="document-card">
+        <span class="project-tag">Security Lab</span>
+        <h2>Web Application Penetration Testing – DVWA and Mutillidae</h2>
+        <p>Professional project documentation prepared to support implementation, troubleshooting, reporting, knowledge transfer, and portfolio evidence.</p>
+        <div class="document-actions">
+          <a class="button primary" href="docs/Project Presentation_ Web App Pentesting with DVWA & Mutillidae.pdf" target="_blank" rel="noopener">View PDF</a>
+          <a class="button secondary" href="docs/Project Presentation_ Web App Pentesting with DVWA & Mutillidae.pdf" download>Download</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+</main>
+  <footer class="site-footer">
+    <div class="shell footer-row">
+      <div><strong>Jephete Fenelon</strong><p>Junior Cybersecurity Analyst · Security Operations</p></div>
+      <div class="footer-links"><a href="mailto:jeph.fenelon@gmail.com">Email</a><a href="https://www.linkedin.com/in/jephete-fenelon-64aa35214" target="_blank" rel="noopener">LinkedIn</a><a href="https://github.com/jfenelon-cyber" target="_blank" rel="noopener">GitHub</a></div>
+      <p class="copyright">© <span data-year></span> Jephete Fenelon</p>
+    </div>
+  </footer>
+  <button class="back-top" aria-label="Back to top">↑</button>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
